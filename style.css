@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  max-width: 100%;
+  /* overflow-x: hidden; */
+}
+
+body {
+  font-family: "Poppins", "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("louis-reed-JeInkKlI2Po-unsplash.jpg");
+  background-size: cover;
+}
+
+.outer-one {
+  min-height: 100vh;
+}
+
+.outer-four {
+  min-height: 100vh;
+}
+
+.outer-five {
+}
+
+.color-white {
+  color: white;
+}
+
+.margin {
+  margin-top: 25vh;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+canvas {
+  color: white;
+}
+
+.up-btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 5rem;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.color-white-nav {
+  color: white;
+}
+
+.up-btn:hover,
+.color-white-nav:hover {
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  color: rgb(214, 214, 214);
+}
+
+.appear-mobile {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .appear-mobile {
+    display: block;
+  }
+  .disappear-mobile {
+    display: none;
+  }
+
+  .center-mobile {
+    text-align: center;
+  }
+
+  .up-btn {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 5rem;
+    border-radius: 50%;
+    z-index: 99;
+  }
+
+  .margin-top-3 {
+    margin-top: 1rem !important;
+  }
+}
+
+.margin-bot {
+  margin-bottom: 2rem;
+}
+/* 
+#preloader {
+  background: rgba(39, 31, 45, 1) url(img/preloader.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+} */
+
+.cover {
+  object-fit: cover;
+}
+
+.logo-download {
+  font-size: 4rem;
+}
+
+.ratings {
+  margin-right: 10px;
+}
+
+.ratings i {
+  color: #cecece;
+  font-size: 32px;
+}
+
+.rating-color {
+  color: #fbc634 !important;
+}
+
+.review-count {
+  font-weight: 400;
+  margin-bottom: 2px;
+  font-size: 24px !important;
+}
+
+.small-ratings i {
+  color: #cecece;
+}
+
+.review-stat {
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 2px;
+}
